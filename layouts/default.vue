@@ -28,5 +28,5 @@
 import { useOnline } from '@vueuse/core'
 const isOnline = useOnline()
 
-const hiddenBottom = ref(['cart', 'partner', 'products-product'])
+const hiddenBottom = ref(['cart', 'products-product'])
 </script>

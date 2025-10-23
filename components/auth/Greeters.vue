@@ -41,18 +41,6 @@
             </nuxt-link>
 
 
-            <nuxt-link :to="{name: 'collections'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
-              <icons-widget class="text-4xl text-primary"></icons-widget>
-              <span class="expand flex flex-col">
-                <span class="font-medium text-sm md:text-base">Gear Up. Stand Out.</span>
-                <span class="text-xs text-foreground/70">
-                  Shop curated pieces inspired by the game.
-                </span>
-              </span>
-              <span class="icon-right text-foreground/50 text-xl my-auto group-hover:visible md:invisible transition-all ease-in-out"></span>
-            </nuxt-link>
-
-
 
             <nuxt-link :to="{name: 'explore'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
               <icons-explore class="text-4xl text-primary"></icons-explore>
@@ -98,17 +86,6 @@
               </span>
             </span>
 
-            <span class="icon-right text-foreground/50 text-xl my-auto group-hover:visible md:invisible transition-all ease-in-out"></span>
-          </nuxt-link>
-
-          <nuxt-link :to="{name: 'collections'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
-            <icons-widget class="text-4xl text-primary"></icons-widget>
-            <span class="expand flex flex-col">
-              <span class="font-medium text-sm md:text-base">Gear Up. Stand Out.</span>
-              <span class="text-xs text-foreground/70">
-                Shop curated pieces inspired by the game.
-              </span>
-            </span>
             <span class="icon-right text-foreground/50 text-xl my-auto group-hover:visible md:invisible transition-all ease-in-out"></span>
           </nuxt-link>
 
@@ -186,17 +163,6 @@
         <span class="icon-right text-foreground/50 text-xl my-auto group-hover:visible md:invisible transition-all ease-in-out"></span>
       </nuxt-link>
 
-
-      <nuxt-link :to="{name: 'collections'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
-        <icons-widget class="text-4xl text-primary"></icons-widget>
-        <span class="expand flex flex-col">
-          <span class="font-medium text-sm md:text-base">Gear Up. Stand Out.</span>
-          <span class="text-xs text-foreground/70">
-            Shop curated pieces inspired by the game.
-          </span>
-        </span>
-        <span class="icon-right text-foreground/50 text-xl my-auto group-hover:visible md:invisible transition-all ease-in-out"></span>
-      </nuxt-link>
 
 
       <nuxt-link :to="{name: 'cart'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70" v-if="cartQuantity">

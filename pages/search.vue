@@ -11,7 +11,7 @@
 
     <div>
       <div class="w-full relative group">
-        <ui-input class="w-full h-12 md:h-14" v-model="searchQuery" autofocus placeholder="Search for products, collections, and partner stores" @keyup.enter="handleSearch"></ui-input>
+        <ui-input class="w-full h-12 md:h-14" v-model="searchQuery" autofocus placeholder="Search for products" @keyup.enter="handleSearch"></ui-input>
         <span class="icon-close text-sm md:text-xl absolute top-0 right-0 size-12 md:size-14 center bg-border rounded-r cursor-pointer uk-animation-slide-top-small uk-animation-fast" v-show="searchQuery" @click.prevent="resetSearch"></span>
       </div>
     </div>

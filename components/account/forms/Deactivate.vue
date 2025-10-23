@@ -9,7 +9,7 @@
 				</div>
 
 				<div class="flex flex-col items-center md:p-4">
-					<p class="text-sm text-foreground/70 text-center">We hate to see you go but it seems the journey ends here. Thank you for being part of Didarra. Should you choose to return, your account can be reactivated at any time.</p>
+					<p class="text-sm text-foreground/70 text-center">We hate to see you go but it seems the journey ends here. Thank you for being part of {{$appName}}. Should you choose to return, your account can be reactivated at any time.</p>
 				</div>
 				<div class="w-full relative">
 					<div class="absolute inset-y-0 left-4 center"> 

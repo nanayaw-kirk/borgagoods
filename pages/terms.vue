@@ -15,7 +15,7 @@
 
 					<h2 class="text-xl font-medium mb-2">Introduction.</h2>
 
-					<p> Didarra is a fan-focused merchandise and brand platform developed and operated by Velocity Sports Labs Limited, a Ghanaian company (“we,” “us,” or “our”). We operate the Didarra website at didarra.com (the “Site”), along with related services including mobile interfaces, ordering systems, and other features that power the Didarra shopping experience (collectively, the “Service”).
+					<p> {{$appName}} is a fan-focused merchandise and brand platform developed and operated by Velocity Sports Labs Limited, a Ghanaian company (“we,” “us,” or “our”). We operate the {{$appName}} website at {{$appName}}.com (the “Site”), along with related services including mobile interfaces, ordering systems, and other features that power the {{$appName}} shopping experience (collectively, the “Service”).
 
 					</p>
 
@@ -39,7 +39,7 @@
 
 					<h2 class="text-xl font-medium mb-2">IMPORTANT: DISPUTE RESOLUTION CLAUSE</h2>
 					<p>
-						These Terms contain a binding arbitration clause for users outside of jurisdictions like the UK or EU. This means that in the event of a dispute between you and Didarra (Velocity Sports Labs Limited), we agree to resolve it through private arbitration rather than court proceedings (except where otherwise allowed by law or small claims court).
+						These Terms contain a binding arbitration clause for users outside of jurisdictions like the UK or EU. This means that in the event of a dispute between you and {{$appName}} (Velocity Sports Labs Limited), we agree to resolve it through private arbitration rather than court proceedings (except where otherwise allowed by law or small claims court).
 					</p>
 
 					<p>
@@ -242,7 +242,7 @@
 				<div class="grid gap-2 md:gap-3 text-foreground/70">
 					<p>You agree not to:</p>
 
-					<p>All content on Didarra (including text, images, logos, graphics, and software) is owned by Didarra or its licensors and protected by copyright and other laws. You may not reproduce, distribute, or exploit any content without prior written consent.
+					<p>All content on {{$appName}} (including text, images, logos, graphics, and software) is owned by {{$appName}} or its licensors and protected by copyright and other laws. You may not reproduce, distribute, or exploit any content without prior written consent.
 					</p>
 
 				</div>
@@ -285,7 +285,7 @@
 				<h2 class="text-xl font-medium mb-2">12. Limitation of Liability</h2>
 				
 
-				<p>To the fullest extent permitted by law, Didarra and its affiliates will not be liable for any:</p>
+				<p>To the fullest extent permitted by law, {{$appName}} and its affiliates will not be liable for any:</p>
 
 
 				<ul class="list-disc list-inside">
@@ -305,7 +305,7 @@
 				<h2 class="text-xl font-medium mb-2">13. Indemnification</h2>
 				
 
-				<p>You agree to indemnify, defend, and hold harmless Didarra, its officers, employees, and partners from any claims, damages, or liabilities arising from your:</p>
+				<p>You agree to indemnify, defend, and hold harmless {{$appName}}, its officers, employees, and partners from any claims, damages, or liabilities arising from your:</p>
 
 
 				<ul class="list-disc list-inside">
@@ -320,7 +320,7 @@
 				<h2 class="text-xl font-medium mb-2">14. Termination</h2>
 				
 
-				<p>You agree to indemnify, defend, and hold harmless Didarra, its officers, employees, and partners from any claims, damages, or liabilities arising from your:</p>
+				<p>You agree to indemnify, defend, and hold harmless {{$appName}}, its officers, employees, and partners from any claims, damages, or liabilities arising from your:</p>
 
 
 				<ul class="list-disc list-inside">

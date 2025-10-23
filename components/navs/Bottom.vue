@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="flex items-center justify-center gap-x-2 w-full ">
+		<div class="flex items-center justify-center gap-x-3 w-full ">
 			<div class="transition-colors rounded p-1 cursor-pointer" :class="$route.name === 'index' ? 'text-primary' : 'text-foreground/70' ">
 				<nuxt-link :to="{name: 'index'}" class="w-full flex flex-col items-center">
 					<span class="icon-home text-xl"></span>
@@ -57,7 +57,7 @@
 			
 
 			
-			<div class="transition-colors rounded p-1 cursor-pointer text-foreground/70">
+			<div class="transition-colors rounded p-1 cursor-pointer text-foreground/70" v-if="authenticated">
 				<div class="w-full flex flex-col items-center" @click="open = true">
 					<span class="icon-bars text-xl"></span>
 					<span class="text-[10px] uppercase font-medium">

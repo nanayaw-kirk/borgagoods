@@ -14,7 +14,7 @@
 
 			<div class="grid grid-cols-2 items-end" v-if="loading">
 				<ui-skeleton class="w-full h-[160px] rounded-none border-4 border-white shadow-xl"></ui-skeleton>
-				<ui-skeleton class="w-full h-[140px] rounded-none border-r-4 border-y-4 border-white"></ui-skeleton>
+				<ui-skeleton class="w-full h-[160px] rounded-none border-r-4 border-y-4 border-white"></ui-skeleton>
 			</div>
 
 			<template  v-else>
@@ -36,7 +36,7 @@
 					<div class="w-fullflex flex-col items-end -ml-2">
 						<template v-if="list?.[1]?.slug">
 							<nuxt-link class="w-full" :to="{name: 'products-product', params : {product : list?.[1]?.slug}}">
-								<ui-avatar class="rounded-none bg-transparent w-full  h-[140px] border-r-4 border-y-4 border-white">
+								<ui-avatar class="rounded-none bg-transparent w-full  h-[160px] border-r-4 border-y-4 border-white">
 									<ui-avatar-image class="!object-cover object-top" :src="list?.[1]?.media?.[0]?.web ? list?.[1]?.media?.[0]?.web : '/illustrations/banner.svg'"></ui-avatar-image>
 								</ui-avatar>
 								<div class="pl-4 flex flex-col pt-2">

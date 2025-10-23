@@ -16,11 +16,11 @@
 				<ui-sheet-content side="top" class="!transition-none data-[state=closed]:duration-100 data-[state=open]:duration-100 rounded-b-xl border p-0 gap-0 md:max-w-[1300px] mx-auto z-[9999]" :hideClose="true"  @interactOutside.prevent="open = false" @escapeKeyDown.prevent="open = false">
 					<ui-sheet-header class="gap-y-0 p-3 border-b hidden">
 						<ui-sheet-title class="font-medium mb-0 text-center">Search</ui-sheet-title>
-						<ui-sheet-description class="!mt-1 text-center text-foreground/70 md:px-4 line-clamp-2 md:line-clamp-1">Search for products, collections and more</ui-sheet-description>
+						<ui-sheet-description class="!mt-1 text-center text-foreground/70 md:px-4 line-clamp-2 md:line-clamp-1">Search for products</ui-sheet-description>
 					</ui-sheet-header>
 					<div class="md:max-w-[1300px] mx-auto p-4 grid gap-6">
 						<div class="w-full relative">
-							<ui-input class="w-full h-14" v-model="searchQuery" autofocus placeholder="Search for products, collections, teams and more" @keyup.enter="handleSearch"></ui-input>
+							<ui-input class="w-full h-14" v-model="searchQuery" autofocus placeholder="Search for products" @keyup.enter="handleSearch"></ui-input>
 							<span class="icon-close text-xl absolute top-0 right-0 size-14 center bg-border rounded-r cursor-pointer" @click.prevent="open = false; searchQuery = ''"></span>
 						</div>
 						<div class="grid gap-4">

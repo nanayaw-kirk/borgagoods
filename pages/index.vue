@@ -10,9 +10,21 @@
 
     <div class="container grid gap-6 md:gap-8 lg:gap-12 md:pt-4">
 
-      <div class="w-full aspect-video md:h-[450px] bg-black relative">
+      <nuxt-link :to="{name: 'black-friday'}" class="w-full aspect-video md:h-[450px] bg-black relative">
         <img src="https://images.samsung.com/is/image/samsung/assets/us/peaceofmind/06012023/SDSAC-5956-peaceOfMind-HP-Hero-Carousel-DT-1440x640.jpg?imwidth=1366" class="w-full h-full object-cover" alt="">
-      </div>
+
+        <div class="top-0 absolute h-full w-full flex flex-col p-4">
+          <div class="sm:max-w-xs md:m-auto flex flex-col items-center">
+            <h2 class="text-center text-2xl md:text-4xl font-black">Black Friday Deals</h2>
+            <p class="text-center text-xs md:text-base my-2 md:my-3 w-full max-w-[70%] sm:max-w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <ui-button>Shop Now</ui-button>
+          </div>
+        </div>
+      </nuxt-link>
+
+
+
       <div class="px-2 md:px-0" v-if="homePage?.products?.length > 0">
         <home-offers :data="homePage?.products"></home-offers>
       </div>
