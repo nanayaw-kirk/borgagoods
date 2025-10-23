@@ -1,0 +1,10 @@
+
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="M7 4L4 7l3 3"></path><path d="M4 7h11a5 5 0 0 1 0 10H8" opacity=".5"></path></g></svg>
+</template>
+
+<script lang="ts">
+export default {
+  name: 'SolarUndoLeftRoundLineDuotone'
+}
+</script>

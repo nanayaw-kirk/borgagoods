@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/scripts": "0.9.5",
+    "@pinia/nuxt": "^0.5.1",
+    "@radix-icons/vue": "^1.0.0",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-vue": "^8.1.6",
+    "lucide-vue-next": "^0.522.0",
+    "nuxt": "^3.16.2",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.9.1",
+    "reka-ui": "^2.3.1",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7",
+    "uikit": "^3.21.7",
+    "vaul-vue": "^0.2.0",
+    "vue": "latest",
+    "vue-country-flag-next": "^2.3.2",
+    "vue-tel-input": "^9.1.4",
+    "vue3-otp-input": "0.4.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@vueuse/core": "^13.4.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "sass": "1.77.6",
+    "typescript": "^5.5.3",
+    "vue-router": "^4.5.1"
+  },
+  "packageManager": "yarn@4.5.3"
+}
