@@ -3154,7 +3154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^10.11.0":
+"@vueuse/nuxt@npm:^10.5.0":
   version: 10.11.1
   resolution: "@vueuse/nuxt@npm:10.11.1"
   dependencies:
@@ -6874,7 +6874,7 @@ __metadata:
     "@radix-icons/vue": "npm:^1.0.0"
     "@tailwindcss/container-queries": "npm:^0.1.1"
     "@vueuse/core": "npm:^14.1.0"
-    "@vueuse/nuxt": "npm:^10.11.0"
+    "@vueuse/nuxt": "npm:^10.5.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     embla-carousel-vue: "npm:^8.1.6"
@@ -6892,7 +6892,7 @@ __metadata:
     uikit: "npm:^3.21.7"
     unenv: "npm:^1.10.0"
     vaul-vue: "npm:^0.2.0"
-    vue: "npm:latest"
+    vue: "npm:^3.5.25"
     vue-country-flag-next: "npm:^2.3.2"
     vue-router: "npm:^4.5.1"
     vue-tel-input: "npm:^9.1.4"
@@ -10086,7 +10086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.4.5, vue@npm:^3.5.13, vue@npm:^3.5.23, vue@npm:latest":
+"vue@npm:^3.4.5, vue@npm:^3.5.13, vue@npm:^3.5.23, vue@npm:^3.5.25":
   version: 3.5.25
   resolution: "vue@npm:3.5.25"
   dependencies:
