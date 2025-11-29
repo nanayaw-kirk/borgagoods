@@ -45,7 +45,7 @@
 const promo = inject('promo')
 const notify = useToaster()
 const open = ref(false)
-const size = 'x-small'
+const size = ref('x-small')
 const codeNode = ref(null)
 
 

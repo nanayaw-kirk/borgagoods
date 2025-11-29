@@ -370,7 +370,7 @@
 
 	const open = ref(false)
 	const order = ref(null)
-	const size = 'small'
+	const size = ref('small')
 
 
 	const heading = computed(() => {

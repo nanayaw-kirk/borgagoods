@@ -196,6 +196,6 @@ const showRegistered = ref(Object.keys(useRoute()?.query).includes('registered')
 const passwordChanged = ref(Object.keys(useRoute()?.query).includes('password_changed'))
 
 
-const size = 'x-small'
+const size = ref('x-small')
 
 </script>
