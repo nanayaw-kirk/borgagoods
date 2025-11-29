@@ -42,6 +42,16 @@ modules: [
   '@nuxt/scripts',
 ],
 
+$production: {
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: process.env.GA
+      }
+    }
+  }
+},
+
 shadcn: { prefix: 'ui', componentDir: './components/ui'},
 
 vite: {

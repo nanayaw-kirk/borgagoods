@@ -1,7 +1,7 @@
 <template>
 	<div>
 
-		<div class="rounded md:rounded-md  bg-muted/30 dark:bg-muted/50 p-4 grid gap-y-3">
+		<div class="rounded md:rounded-md  dark:bg-muted bg-border/30 p-4 grid gap-y-3">
 			<nuxt-link class="flex items-center gap-x-2 px-3 md:px-0" :to="{name: 'explore-category', params:{ category : category?.slug }}">
 				<div class="expand flex flex-col">
 					<span class="font-medium line-clamp-1">{{category?.name}}</span>

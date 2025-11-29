@@ -19,9 +19,38 @@
 
 				<template v-else>
 					<template v-if="list && list.length > 0">
-						<div class=" w-full">
-							<div class="w-full grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-								<product-card v-for="(entity, index) in list" :key="entity?.uuid" :entry="entity"></product-card>
+						<div class="w-full grid gap-2">
+							
+							<div class="w-full grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6" v-if="top?.length > 0">
+								<product-card v-for="(entity, index) in top" :key="entity?.uuid" :entry="entity"></product-card>
+							</div>
+
+							<div class="py-4 md:px-6 md:bg-border/50 grid gap-y-2 md:gap-y-4 md:rounded-md" v-if="homePage?.categories?.length > 0">
+
+								<div class="flex justify-between items-center">
+									<div class="flex flex-col expand mr-2">
+										<h2 class="text-xl md:text-2xl font-bold">
+											Shop by Category
+										</h2>
+										<p class="text-foreground/70 text-sm md:text-base">
+											Discover variety on {{$appName}}
+										</p>
+									</div>
+
+									<nuxt-link :to="{name: 'explore'}" class="items-center group cursor-pointer">
+										<ui-button size="sm">
+											All Categories &rarr;
+										</ui-button>
+									</nuxt-link>
+
+								</div>
+
+								<home-categories :list="homePage?.categories"/>
+							</div>
+
+
+							<div class="w-full grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6" v-if="remainder?.length > 0">
+								<product-card v-for="(entity, index) in remainder" :key="entity?.uuid" :entry="entity"></product-card>
 							</div>
 						</div>
 
@@ -62,6 +91,7 @@
 </template>
 <script setup lang="ts">
 
+const {homePage} = storeToRefs(useHomeStore())
 
 const filterOptions = computed(() => {
 	return {
@@ -71,6 +101,10 @@ const filterOptions = computed(() => {
 })
 
 const {list , loading, fetching, pagination, failed, errData, fetchData, fetchMore, searchQuery, searchData, searching} = await useDataLoader(`/products`, filterOptions)
+
+
+const top = computed(()=> list?.value?.slice(0,6))
+const remainder = computed(() => list?.value?.slice(6))
 
 
 watch(()=> filterOptions?.value, (newVal, oldVal) => {

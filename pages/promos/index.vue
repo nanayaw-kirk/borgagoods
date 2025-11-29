@@ -9,14 +9,6 @@
 		</Head>
 
 		<div class="container p-2 md:py-4">
-			<div class="flex flex-col w-full mb-4">
-				<h2 class="text-xl md:text-2xl font-bold">
-					Promos
-				</h2>
-				<p class="text-foreground/70 text-sm md:text-base md:-mt-1">
-					Save big on your next purchase on {{$appName}}!
-				</p>
-			</div>
 			<template v-if="loading">
 				<div class="w-full">
 					<div class="w-full grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
@@ -58,11 +50,10 @@
 				<template v-else>
 					<slot name="notFound">
 						<div class="mx-auto max-w-[550px] flex flex-col items-center pt-10">
-							<icons-library class="text-7xl text-foreground/70"></icons-library>
 							<div class="flex flex-col items-center mt-3 mb-4">
-								<h2 class="text-xl md:text-2xl text-center font-medium">No collection found</h2>
+								<h2 class="text-xl md:text-2xl text-center font-medium">No promos found</h2>
 								<p class="text-center text-sm md:text-base text-foreground/70">
-									Sorry we could not find a collection at the moment
+									Sorry there are no ongoing promos
 								</p>
 							</div>
 							<ui-button class="h-10" @click="fetchData()" variant="outline">

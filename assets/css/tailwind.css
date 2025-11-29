@@ -119,6 +119,10 @@
   .center{
     @apply flex flex-col items-center justify-center;
   }
+
+  .contain-slider{
+    @apply !max-w-[96vw] lg:!max-w-[1300px]
+  }
 }
 
 

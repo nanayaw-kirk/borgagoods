@@ -23,13 +23,26 @@
 						</ui-navigation-menu>
 
 
+						<ui-navigation-menu class="hidden md:block">
+							<ui-navigation-menu-list class="flex gap-x-3">
+								<ui-navigation-menu-item>
+									<nuxt-link :to="{name: 'brands'}"  v-slot="{ route }">
+										<ui-navigation-menu-link class="!px-3 h-[25px] md:h-[32px] text-sm" :class="navigationMenuTriggerStyle()" :active="$route.name === route.name">
+											Brands
+										</ui-navigation-menu-link>
+									</nuxt-link>
+								</ui-navigation-menu-item>
+							</ui-navigation-menu-list>
+						</ui-navigation-menu>
+
+
 
 						<ui-navigation-menu class="hidden md:block">
 							<ui-navigation-menu-list class="flex gap-x-3">
 								<ui-navigation-menu-item>
 									<nuxt-link :to="{name: 'explore'}"  v-slot="{ route }">
 										<ui-navigation-menu-link class="!px-3 h-[25px] md:h-[32px] text-sm" :class="navigationMenuTriggerStyle()" :active="$route.name === route.name">
-											Explore
+											Categories
 										</ui-navigation-menu-link>
 									</nuxt-link>
 								</ui-navigation-menu-item>

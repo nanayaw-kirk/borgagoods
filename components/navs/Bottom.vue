@@ -14,19 +14,26 @@
 				<nuxt-link :to="{name: 'products'}" class="w-full flex flex-col items-center">
 					<span class="text-xl" :class="$route.name.startsWith('products') ? 'icon-tags-filled' : 'icon-tags'"></span>
 					<span class="text-[10px] uppercase font-medium">
-						Browse
+						Products
 					</span>
 				</nuxt-link>
 			</div>
 
 
-			
-
-			<div class="transition-colors rounded p-1 cursor-pointer" :class="$route.name.startsWith('explore') ? 'text-primary' : 'text-foreground/70' ">
-				<nuxt-link :to="{name: 'explore'}" class="w-full flex flex-col items-center">
+			<div class="transition-colors rounded p-1 cursor-pointer" :class="$route.name.startsWith('brands') ? 'text-primary' : 'text-foreground/70' ">
+				<nuxt-link :to="{name: 'brands'}" class="w-full flex flex-col items-center">
 					<span class="icon-navigation text-xl"></span>
 					<span class="text-[10px] uppercase font-medium">
-						Explore
+						Brands
+					</span>
+				</nuxt-link>
+			</div>
+
+			<div class="transition-colors rounded p-1 cursor-pointer" :class="$route.name.startsWith('promos') ? 'text-primary' : 'text-foreground/70' ">
+				<nuxt-link :to="{name: 'promos'}" class="w-full flex flex-col items-center">
+					<span class="icon-navigation text-xl"></span>
+					<span class="text-[10px] uppercase font-medium">
+						Promos
 					</span>
 				</nuxt-link>
 			</div>

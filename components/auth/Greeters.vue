@@ -29,7 +29,7 @@
               <span class="icon-right text-foreground/50 text-xl my-auto group-hover:visible md:invisible transition-all ease-in-out"></span>
             </nuxt-link>
 
-            <nuxt-link :to="{name: 'releases'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
+            <nuxt-link :to="{name: 'products'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
               <icons-tag class="text-4xl text-primary"></icons-tag>
               <span class="expand flex flex-col">
                 <span class="font-medium text-sm md:text-base">Fresh Drops. New Vibes.</span>
@@ -152,7 +152,7 @@
       </nuxt-link>
 
 
-      <nuxt-link :to="{name: 'releases'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
+      <nuxt-link :to="{name: 'products'}" class="p-2 md:rounded-md flex gap-2 items-start group hover:bg-muted/70 dark:hover:bg-border/70">
         <icons-tag class="text-4xl text-primary"></icons-tag>
         <span class="expand flex flex-col">
           <span class="font-medium text-sm md:text-base">Release Radar</span>

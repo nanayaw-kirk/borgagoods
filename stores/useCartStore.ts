@@ -50,46 +50,27 @@ export const useCartStore = defineStore('useCartStore', {
 			if (entry) {
 				if((payload.quantity > entry?.product?.quantity) || (payload?.quantity + entry?.quantity) > entry?.product?.quantity){
 					entry.quantity = entry?.product?.quantity
-					notify({ title : 'Cart Updated', description : `${payload?.product?.name} added to cart`})
+					notify({ title : 'Added to cart', description : `${payload?.product?.name} added to cart`})
 
 					return
 				}
 
 				if( (payload?.quantity + entry?.quantity) < entry?.product?.quantity){
 					entry.quantity = entry.quantity + payload?.quantity 
-					notify({ title : 'Cart Updated', description : `${payload?.product?.name} added to cart`})
+					notify({ title : 'Added to cart', description : `${payload?.product?.name} added to cart`})
 
 					return
 				}
 
 				entry.quantity = payload?.quantity 
-				notify({ title : 'Cart Updated', description : `${payload?.product?.name} added to cart`})
+				notify({ title : 'Added to cart', description : `${payload?.product?.name} added to cart`})
 				return
 			}
 
 			this.data.unshift({product : payload.product, quantity : payload?.quantity ? payload?.quantity  : 1})
-			notify({ title : 'Cart Updated', description : `${payload?.product?.name} added to cart`})
+			notify({ title : 'Added to cart', description : `${payload?.product?.name} added to cart`})
 		},
-
-
-		addProductWithVariationToCart(payload){
-			const product_variations = payload.product.variations.filter(item => payload.variations.includes(item.uuid))
-
-			for (const variation of product_variations){
-
-				let cartEntry = {
-					product : payload.product,
-					quantity : 1,
-					variation : variation.uuid,
-					variant : {...variation}
-				}
-
-				this.data.unshift(cartEntry)
-				notify({ title : 'Cart Updated', description : `${product_variations?.length > 1 ? 'Items' : 'Item'} added to cart`})
-			}
-
-		},
-
+		
 		removeFromCart(index){
 			this.data = this.data?.filter((item, id) => id !== index)
 		},

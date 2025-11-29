@@ -153,24 +153,11 @@
 			</section>
 
 
-			<section>
-				<h2 class="text-xl font-medium mb-2">5. Shipping and Delivery</h2>
-				
-
-				<div class="grid gap-2 md:gap-3 text-foreground/70">
-					<p>
-						We aim to dispatch all orders promptly. However, delivery timelines are estimates and not guarantees. Risk of loss and title for items you purchase pass to you upon delivery to the carrier. For full details, see our <nuxt-link :to="{name: 'delivery-policy'}" class="underline text-primary font-medium">Delivery Policy.</nuxt-link>
-					</p>
-
-
-
-				</div>
-			</section>
-
+			
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">6. Cancellations, Returns & Refunds</h2>
+				<h2 class="text-xl font-medium mb-2">5. Cancellations, Returns & Refunds</h2>
 				
 
 				<div class="grid gap-2 md:gap-3 text-foreground/70">
@@ -196,7 +183,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">7. Product Descriptions & Availability</h2>
+				<h2 class="text-xl font-medium mb-2">6. Product Descriptions & Availability</h2>
 				
 
 				<div class="grid gap-2 md:gap-3 text-foreground/70">
@@ -213,7 +200,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">8. User Conduct and Acceptable Use</h2>
+				<h2 class="text-xl font-medium mb-2">7. User Conduct and Acceptable Use</h2>
 				
 
 				<div class="grid gap-2 md:gap-3 text-foreground/70">
@@ -236,7 +223,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">9. Intellectual Property</h2>
+				<h2 class="text-xl font-medium mb-2">8. Intellectual Property</h2>
 				
 
 				<div class="grid gap-2 md:gap-3 text-foreground/70">
@@ -251,7 +238,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">10. Third-Party Links and Tools</h2>
+				<h2 class="text-xl font-medium mb-2">9. Third-Party Links and Tools</h2>
 				
 
 				<div class="grid gap-2 md:gap-3 text-foreground/70">
@@ -267,7 +254,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">11. Disclaimer of Warranties</h2>
+				<h2 class="text-xl font-medium mb-2">10. Disclaimer of Warranties</h2>
 				
 
 				<p>The Site and all products and services are provided “as is” and “as available”. We make no warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
@@ -282,7 +269,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">12. Limitation of Liability</h2>
+				<h2 class="text-xl font-medium mb-2">11. Limitation of Liability</h2>
 				
 
 				<p>To the fullest extent permitted by law, {{$appName}} and its affiliates will not be liable for any:</p>
@@ -302,7 +289,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">13. Indemnification</h2>
+				<h2 class="text-xl font-medium mb-2">12. Indemnification</h2>
 				
 
 				<p>You agree to indemnify, defend, and hold harmless {{$appName}}, its officers, employees, and partners from any claims, damages, or liabilities arising from your:</p>
@@ -317,7 +304,7 @@
 
 
 			<section>
-				<h2 class="text-xl font-medium mb-2">14. Termination</h2>
+				<h2 class="text-xl font-medium mb-2">13. Termination</h2>
 				
 
 				<p>You agree to indemnify, defend, and hold harmless {{$appName}}, its officers, employees, and partners from any claims, damages, or liabilities arising from your:</p>

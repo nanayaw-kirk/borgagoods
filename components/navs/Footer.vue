@@ -3,7 +3,7 @@
 		<div class="container grid gap-4 items-start">
 			<div class="grid gap-y-4">
 				<div class="flex items-center gap-2">
-					<nuxt-link :to="{name: 'terms'}">Terms of Service </nuxt-link> | <nuxt-link :to="{name: 'privacy'}">Privacy Policy</nuxt-link> | <nuxt-link :to="{name: 'delivery-policy'}">Delivery Policy </nuxt-link> | <nuxt-link :to="{name: 'cancellation-and-returns-policy'}">Refund Policy </nuxt-link>
+					<nuxt-link :to="{name: 'terms'}">Terms of Service </nuxt-link>
 				</div>
 
 				<p class="text-xs text-foreground/70">

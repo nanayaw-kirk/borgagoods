@@ -1,13 +1,13 @@
 import {defineStore} from "pinia";
 
-export const sportsStore = defineStore('sportsStore', {
+export const brandsStore = defineStore('brandsStore', {
 	state : () => {
 		return {
 			list : []
 		}
 	},
 	getters : {
-		sports(){
+		brands(){
 			return this.list
 		}
 
@@ -16,8 +16,5 @@ export const sportsStore = defineStore('sportsStore', {
 		fill(data){
 			this.list = data
 		}
-	},
-	persist: {
-		storage: persistedState.localStorage,
-	},
+	}
 }) 

@@ -15,21 +15,7 @@
 							</span>
 						</nuxt-link>
 					</li>
-					<li>
-						<nuxt-link class="text-foreground/70" :to="{name: 'privacy'}" v-slot="{ route }">
-							<span class="text-foreground/70" :class="$route.name === route.name ? 'font-medium' : 'underline'">Privacy Policy</span>
-						</nuxt-link>
-					</li>
-					<li>
-						<nuxt-link class="text-foreground/70" :to="{name: 'delivery-policy'}" v-slot="{ route }">
-							<span class="text-foreground/70" :class="$route.name === route.name ? 'font-medium' : 'underline'">Delivery Policy</span>
-						</nuxt-link>
-					</li>
-					<li>
-						<nuxt-link class="text-foreground/70" :to="{name: 'cancellation-and-returns-policy'}" v-slot="{ route }">
-							<span class="text-foreground/70" :class="$route.name === route.name ? 'font-medium' : 'underline'">Cancellations & Refunds Policy</span>
-						</nuxt-link>
-					</li>
+					
 
 				</ul>
 			</nav>
