@@ -37,7 +37,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
-    "@vueuse/core": "^13.4.0",
+    "@vueuse/core": "^14.1.0",
     "@vueuse/nuxt": "^10.11.0",
     "sass": "1.77.6",
     "typescript": "^5.5.3",
