@@ -32,6 +32,7 @@ export async function useApiFetch<T>(path: string, options: UseFetchOptions<T> =
 	const fetcher =  await useFetch(url, {
 		withCredentials: true,
 		watch: false,
+		key: Math?.random()?.toString(),
 		...options,
 		headers: {
 			...headers,

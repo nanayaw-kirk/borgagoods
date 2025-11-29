@@ -1,20 +1,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  compatibilityDate: '2024-04-03',
-
   devServer : {
     port : 9999
   },
-
-
-  runtimeConfig : {
-    public : {
-      api : process.env.API,
-      root : process.env.ROOT,
-      ga : process.env.GA
-    },
-  },
-
 
   app : {
     head : {
@@ -29,9 +17,26 @@ export default defineNuxtConfig({
    }
  },
 
- css : [
-  {src : '~/assets/css/uikit.scss', lang : 'scss'},
-],
+ runtimeConfig : {
+  public : {
+    api : process.env.API,
+    root : process.env.ROOT,
+    ga : process.env.GA
+  },
+},
+$production: {
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: process.env.GA
+      }
+    }
+  }
+},
+
+
+
+css : [{src : '~/assets/css/uikit.scss', lang : 'scss'}],
 
 modules: [
   "shadcn-nuxt",
@@ -42,15 +47,7 @@ modules: [
   '@nuxt/scripts',
 ],
 
-$production: {
-  scripts: {
-    registry: {
-      googleAnalytics: {
-        id: process.env.GA
-      }
-    }
-  }
-},
+
 
 shadcn: { prefix: 'ui', componentDir: './components/ui'},
 

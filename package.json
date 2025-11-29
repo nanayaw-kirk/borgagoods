@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --host",
+    "dev": "nuxt dev --public",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -18,7 +18,7 @@
     "clsx": "^2.1.1",
     "embla-carousel-vue": "^8.1.6",
     "lucide-vue-next": "^0.522.0",
-    "nuxt": "^3.16.2",
+    "nuxt": "^4.2.1",
     "pinia": "^2.1.7",
     "radix-vue": "^1.9.1",
     "reka-ui": "^2.3.1",
@@ -42,5 +42,5 @@
     "typescript": "^5.5.3",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "yarn@4.5.3"
+  "packageManager": "yarn@4.12.0"
 }

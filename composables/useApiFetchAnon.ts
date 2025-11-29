@@ -24,6 +24,7 @@ export async function useApiFetchAnon<T>(path: string, options: UseFetchOptions<
 	const fetcher =  await useFetch(url, {
 		withCredentials: true,
 		watch: false,
+		key: Math?.random()?.toString(),
 		...options,
 		headers: {
 			...headers,
