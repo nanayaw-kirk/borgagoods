@@ -4095,14 +4095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001688, caniuse-lite@npm:^1.0.30001702":
-  version: 1.0.30001715
-  resolution: "caniuse-lite@npm:1.0.30001715"
-  checksum: 10c0/0109a7da797ffbe1aa197baa5242b205011098eecec1087ef3d0c58ceea19be325ab6679b2751a78660adc3051a9f77e99d5789938fd1eb1235e6fdf6a1dbf8e
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001754":
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001688, caniuse-lite@npm:^1.0.30001702, caniuse-lite@npm:^1.0.30001754":
   version: 1.0.30001757
   resolution: "caniuse-lite@npm:1.0.30001757"
   checksum: 10c0/3ccb71fa2bf1f8c96ff1bf9b918b08806fed33307e20a3ce3259155fda131eaf96cfcd88d3d309c8fd7f8285cc71d89a3b93648a1c04814da31c301f98508d42
@@ -7495,6 +7488,7 @@ __metadata:
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5.5.3"
     uikit: "npm:^3.21.7"
+    unenv: "npm:^1.10.0"
     vaul-vue: "npm:^0.2.0"
     vue: "npm:latest"
     vue-country-flag-next: "npm:^2.3.2"
@@ -10079,6 +10073,19 @@ __metadata:
     magic-string: "npm:^0.30.17"
     unplugin: "npm:^2.1.0"
   checksum: 10c0/08d334fbe51ad4bad4c7b7cc5efec84e61b39ca44e20cda2750a37f20b8e122ed4ce525d6a152b4c463ca1545c38fb556049d8c4ee0299afba4fdb0057d711ee
+  languageName: node
+  linkType: hard
+
+"unenv@npm:^1.10.0":
+  version: 1.10.0
+  resolution: "unenv@npm:1.10.0"
+  dependencies:
+    consola: "npm:^3.2.3"
+    defu: "npm:^6.1.4"
+    mime: "npm:^3.0.0"
+    node-fetch-native: "npm:^1.6.4"
+    pathe: "npm:^1.1.2"
+  checksum: 10c0/354180647e21204b6c303339e7364b920baadb2672b540a88af267bc827636593e0bf79f59753dcc6b7ab5d4c83e71d69a9171a3596befb8bf77e0bb3c7612b9
   languageName: node
   linkType: hard
 
